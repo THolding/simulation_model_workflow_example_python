@@ -1,5 +1,5 @@
 # Example Python workflow for agent-based models
-This is the readme for the workflow explanation. For the readme for the example model see `example_readme.md`.
+This is the readme for the workflow explanation. For the readme for the example model (containing instructions on how to run the examples) see `example_readme.md`.
 
 If you want to get into the details then the place to start (besides this readme file) the example scripts in the `analysis` directory.
 
