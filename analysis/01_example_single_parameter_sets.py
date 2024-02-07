@@ -37,12 +37,3 @@ params["outputDirectory"] = path.join(filepaths.modelOutputRoot, "example_run_re
 statusList = run_tools.run_reps(params, numReps=16, verbose=True, innerVerbose=False, numCores=4);
 #we can check they all ran ok with the return statuses:
 print(np.sum(statusList==status_codes.SUCCESSFUL), "simulations completed successfully,", np.sum(statusList==status_codes.SKIPPED), "were skipped, and", np.sum(statusList==status_codes.ERROR), "had errors.");
-
-
-
-
-
-
-
-
-
