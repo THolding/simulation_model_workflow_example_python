@@ -43,7 +43,7 @@ def run_single(params, skipIfExists=True, overwriteSeed=None, verbose=False):
     #In this case, the model is implemented with Python so we can just run it directly.
     status = simple_model.run_model(params, verbose);
     
-    ####Additional steps can be added here, e.g. if you have a set of statistics or plots you always want to produce for any simulation:
+    ####Additional steps can be added here, e.g. if you have a set of statistics or plots you always want to produce for every simulation:
     #if calcBasicStats:
     #    calc_basic_stats(params["outputDirectory"]);
     #if makeBasicPlots:

@@ -57,8 +57,8 @@ paramNames, paramVals, popSizeTSData = analysis_tools.extract_from_sweep(multiSw
 paramNames, paramVals, growthRates = analysis_tools.extract_from_sweep(multiSweepParams["outputDirectory"], data_extractors.get_population_growth_rate);
 #A sweep over 3 parameters (with 10 repeats), this means the data extracted
 # is stored in 3+1 dimensions. 'paramNames' defines the order to index these
-# dimensions (note, the repeats are always last). 'paramVals' gives us the
-# values to use to index them. For example: growthRates[0.1[0.06][4000]
+# dimensions (the repeats are always last). 'paramVals' gives us the
+# values to use to index them. For example: growthRates[0.1][0.06][4000][:]
 # indexes all repeats of the parameter set with fertilityRate=0.1,
 # mortalityRate=0.06 and initialPopulationSize=4000. Similarly
 # popSizeTSData[0.1][0.06][4000][0] indexes the time series of population size
